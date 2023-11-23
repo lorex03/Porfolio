@@ -21,23 +21,25 @@ code {
 }
 
 .bgstyle {
-  /* background: linear-gradient(136deg, #1ad7c0, #8E44AD, #ff9b11, #1F3A93, #ddd8c6, #000000, #000000);  */
-  /*background: linear-gradient(
+   background: linear-gradient(250deg, rgb(253, 145, 248), #8E44AD, hwb(35 49% 7%), #ffe78f, #f37575, #000000);  
+  background: linear-gradient(
     136deg,
-    #4484ce,
-    #1ad7c0,
+  
+   
     #ff9b11,
     #9b59b6,
     #ff7f7f,
     #ecf0f1
-  );*/
+     #1ad7c0,
+  );
 
   background-size: 1200% 1200%;
-  -webkit-animation: BackgroundAnimation 70s ease infinite;
-  -moz-animation: BackgroundAnimation 70s ease infinite;
-  -o-animation: BackgroundAnimation 70s ease infinite;
-  animation: BackgroundAnimation 70s ease infinite;
-  height: 100%;
+  -webkit-animation: BackgroundAnimation 50s ease infinite  ;
+  -moz-animation: BackgroundAnimation 50s ease infinite ;
+  -o-animation: BackgroundAnimation 50s ease infinite ;
+  animation: BackgroundAnimation 50s ease infinite ;
+
+height: 100%;
 }
 
 .bg-gradient {
@@ -49,7 +51,7 @@ code {
   transition: background-color 0.2s;
 }
 .navbar-white {
-  background-color: rgba(234, 236, 239, 0.81);
+  background-color: rgba(230, 68, 163, 0.81);
   transition: background-color 0.2s;
 }
 .brand {
@@ -72,14 +74,48 @@ code {
   padding-left: 5px;
   padding-right: 5px;
   transition: all 0.8s;
-  margin: 4px;
+  margin: 10px;
   &:hover {
     color: black;
-    padding-left: 5px;
-    padding-right: 5px;
-    transition: all 0.8s;
-    margin: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.9s;
+    margin: 10px;
   }
+}
+
+.more-button {
+  background: rgb(228, 189, 189);
+   cursor: pointer; 
+   border: none;
+    padding: 16px 32px; 
+    color: #FFF;  
+    font-size: 24px;
+   font-weight: bold; 
+   position: relative;
+    border-radius: 12px;
+
+  background: linear-gradient( 45deg,
+  deeppink,
+rgb(212, 113, 113),   blue, deeppink, rgb(212, 0, 255), blue, deeppink ,
+rgb(235, 147, 147),   blue, deeppink, red, blue, deeppink ,
+); 
+
+
+background-size: 800%;
+ border-radius: 10px;
+ filter: blur(0.7px);
+ animation: glowing 20s linear inifinite;
+ @keyframes glowing { 0% { background-position: 0 0; } 
+ 50% { background-position: 400% 0; } 100% { background-position: 0 0; }
+ }
+ 
+  background-size: 1200% 1200%;
+  -webkit-animation: BackgroundAnimation 50s ease infinite;
+  -moz-animation: BackgroundAnimation 50s ease infinite;
+  -o-animation: BackgroundAnimation 50s ease infinite;
+  animation: BackgroundAnimation 50s ease infinite;
+
 }
 
 .title {
@@ -99,12 +135,12 @@ code {
   @media (min-width: 768px) {
     min-height: 2.5rem;
   }
-}
+}   
 
 .card {
   transition: transform 0.3s, box-shadow 0.3s;
   &:hover {
-    box-shadow: 0 2rem 3rem rgba($black, 0.175) !important;
+    box-shadow: 0 6rem 4rem rgba($black, 0.175) !important;
     transform: translateY(-2px);
     transition: transform 0.3s, box-shadow 0.3s;
   }

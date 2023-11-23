@@ -26,7 +26,8 @@ const Navigation = React.forwardRef((props, ref) => {
 
   React.useEffect(() => {
     if (!navbarDimensions) return;
-    navBottom - scrollPosition >= ref.current.offsetTop
+    navBottom - scrollPosition >= ref.current
+    //.offsetTop
       ? setIsTop(false)
       : setIsTop(true);
   }, [navBottom, navbarDimensions, ref, scrollPosition]);
