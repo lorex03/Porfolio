@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.ddf41c7a.css",
-    "main.js": "/home/static/js/main.f96262e0.js",
-    "static/js/787.4b24f717.chunk.js": "/home/static/js/787.4b24f717.chunk.js",
-    "static/media/CV-Lorena Florio.pdf": "/home/static/media/CV-Lorena Florio.13744fda71ff2b67ca37.pdf",
-    "static/media/lorenaflorio.jpeg": "/home/static/media/lorenaflorio.7325f8ea760ddbb4f76b.jpeg",
-    "index.html": "/home/index.html",
-    "main.ddf41c7a.css.map": "/home/static/css/main.ddf41c7a.css.map",
-    "main.f96262e0.js.map": "/home/static/js/main.f96262e0.js.map",
-    "787.4b24f717.chunk.js.map": "/home/static/js/787.4b24f717.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.ddf41c7a.css",
+    "main.js": "/portfolio/static/js/main.a30bdf68.js",
+    "static/js/787.4b24f717.chunk.js": "/portfolio/static/js/787.4b24f717.chunk.js",
+    "static/media/CV-Lorena Florio.pdf": "/portfolio/static/media/CV-Lorena Florio.13744fda71ff2b67ca37.pdf",
+    "static/media/lorenaflorio.jpeg": "/portfolio/static/media/lorenaflorio.7325f8ea760ddbb4f76b.jpeg",
+    "index.html": "/portfolio/index.html",
+    "main.ddf41c7a.css.map": "/portfolio/static/css/main.ddf41c7a.css.map",
+    "main.a30bdf68.js.map": "/portfolio/static/js/main.a30bdf68.js.map",
+    "787.4b24f717.chunk.js.map": "/portfolio/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ddf41c7a.css",
-    "static/js/main.f96262e0.js"
+    "static/js/main.a30bdf68.js"
   ]
 }
