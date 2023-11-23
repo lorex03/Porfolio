@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.fe927caf.css",
-    "main.js": "/home/static/js/main.627ec46e.js",
+    "main.css": "/home/static/css/main.ddf41c7a.css",
+    "main.js": "/home/static/js/main.f96262e0.js",
     "static/js/787.4b24f717.chunk.js": "/home/static/js/787.4b24f717.chunk.js",
-    "static/media/hashirshoaeb.png": "/home/static/media/hashirshoaeb.23e8b5a1f7de87f03d05.png",
+    "static/media/CV-Lorena Florio.pdf": "/home/static/media/CV-Lorena Florio.13744fda71ff2b67ca37.pdf",
+    "static/media/lorenaflorio.jpeg": "/home/static/media/lorenaflorio.7325f8ea760ddbb4f76b.jpeg",
     "index.html": "/home/index.html",
-    "main.fe927caf.css.map": "/home/static/css/main.fe927caf.css.map",
-    "main.627ec46e.js.map": "/home/static/js/main.627ec46e.js.map",
+    "main.ddf41c7a.css.map": "/home/static/css/main.ddf41c7a.css.map",
+    "main.f96262e0.js.map": "/home/static/js/main.f96262e0.js.map",
     "787.4b24f717.chunk.js.map": "/home/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe927caf.css",
-    "static/js/main.627ec46e.js"
+    "static/css/main.ddf41c7a.css",
+    "static/js/main.f96262e0.js"
   ]
 }
