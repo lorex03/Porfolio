@@ -26,8 +26,7 @@ const Navigation = React.forwardRef((props, ref) => {
 
   React.useEffect(() => {
     if (!navbarDimensions) return;
-    navBottom - scrollPosition >= ref.current
-    //.offsetTop
+    navBottom - scrollPosition >= ref.current.offsetTop
       ? setIsTop(false)
       : setIsTop(true);
   }, [navBottom, navbarDimensions, ref, scrollPosition]);
@@ -39,7 +38,7 @@ const Navigation = React.forwardRef((props, ref) => {
         }`}
       expand="lg"
     >
-      <Navbar.Brand className="navbar-brand" href={process.env.PUBLIC_URL + "/#home"}>
+      <Navbar.Brand className="navbar-brand" href={ "/#home"}>
         {`<${mainBody.firstName} />`}
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
@@ -53,7 +52,7 @@ const Navigation = React.forwardRef((props, ref) => {
           {repos.show && (
 
             <NavLink
-              href={process.env.PUBLIC_URL + "/#projects"}
+              href={ "/#projects"}
             >
               Projects
             </NavLink>
@@ -69,7 +68,7 @@ const Navigation = React.forwardRef((props, ref) => {
           {about.show && (
             <NavLink
               className="nav-item lead"
-              href={process.env.PUBLIC_URL + "/#aboutme"}
+              href={ "/#aboutme"}
             >
               About
             </NavLink>
@@ -77,7 +76,7 @@ const Navigation = React.forwardRef((props, ref) => {
           {skills.show && (
             <NavLink
               className="nav-item lead"
-              href={process.env.PUBLIC_URL + "/#skills"}
+              href={ "/#skills"}
             >
               Skills
             </NavLink>
