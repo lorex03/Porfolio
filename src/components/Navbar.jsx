@@ -16,7 +16,9 @@ const Navigation = React.forwardRef((props, ref) => {
   useScrollPosition(
     ({ prevPos, currPos }) => {
       if (!navbarDimensions) return;
-      currPos.y + ref.current.offsetTop - navbarDimensions.bottom > 5
+      currPos.y + ref.current
+      // .offsetTop esto comente
+      - navbarDimensions.bottom > 5
         ? setIsTop(true)
         : setIsTop(false);
       setScrollPosition(currPos.y);
@@ -26,7 +28,8 @@ const Navigation = React.forwardRef((props, ref) => {
 
   React.useEffect(() => {
     if (!navbarDimensions) return;
-    navBottom - scrollPosition >= ref.current.offsetTop
+    navBottom - scrollPosition >= ref.current
+    // offsetTop esto comente
       ? setIsTop(false)
       : setIsTop(true);
   }, [navBottom, navbarDimensions, ref, scrollPosition]);
@@ -38,7 +41,7 @@ const Navigation = React.forwardRef((props, ref) => {
         }`}
       expand="lg"
     >
-      <Navbar.Brand className="navbar-brand" href={ "/#home"}>
+      <Navbar.Brand className="navbar-brand" href={"/home/#home"}>
         {`<${mainBody.firstName} />`}
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
@@ -52,7 +55,7 @@ const Navigation = React.forwardRef((props, ref) => {
           {repos.show && (
 
             <NavLink
-              href={ "/#projects"}
+              href={ "/home/#projects"}
             >
               Projects
             </NavLink>
@@ -68,7 +71,7 @@ const Navigation = React.forwardRef((props, ref) => {
           {about.show && (
             <NavLink
               className="nav-item lead"
-              href={ "/#aboutme"}
+              href={ "/home/#aboutme"}
             >
               About
             </NavLink>
@@ -76,7 +79,7 @@ const Navigation = React.forwardRef((props, ref) => {
           {skills.show && (
             <NavLink
               className="nav-item lead"
-              href={ "/#skills"}
+              href={ "/home/#skills"}
             >
               Skills
             </NavLink>
